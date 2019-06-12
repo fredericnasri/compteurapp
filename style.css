@@ -1,0 +1,53 @@
+body{
+    font-family:  Helvetica, sans-serif;
+    background: black;
+}
+.app{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.timer{
+    font-size: 45px; 
+    text-align: center;
+    width: 350px;
+    padding: 35px;
+    color: white;
+    border: 1px solid white;
+    background: #171717;
+    border-radius: 8px 8px 0px 0px;
+   
+}
+h1{
+    padding: 80px;
+    margin: 0;
+    height: 5ppx;
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    font-size: 100px;
+    
+    
+    
+
+} 
+.buttons{
+    text-align: center;
+    width: 380px;
+    height: 80px;
+    padding: 20px;
+    margin: 0px;
+    border: 1px solid white;
+    background: #171717;
+    border-radius: 0px 0px 8px 8px;
+ }
+ button{ 
+     width: 80px ;
+     height: 80px;
+     align-items: center;
+
+ }
